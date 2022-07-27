@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-flex {
+  overflow: hidden;
+  display: flex;
+  height: 40px;
+  background-color: #ffb703;
+
+}
+
+.nav-flex-container {
+  overflow: hidden;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.nav-flex-container a:hover{
+  background: rgb(224, 185, 127);
+  color: rgb(199, 29, 211);
+}
+
+
+#banner{
+    background: linear-gradient(rgba(0,0,0.1,0.1),#242422), url(banner1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#banner2{
+  background: linear-gradient(rgba(0,0,0.1,0.1),#242422), url(persepolis.jpg);
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  background-attachment: fixed;
+}
+
+#banner3{
+  background: linear-gradient(rgba(0,0,0.1,0.1),#242422), url(banner3.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#banner0{
+    background: linear-gradient(rgba(0,0,0.1,0.1),#242422), url(banner1.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 100px;
+    position: absolute;
+    bottom: 2%;
+    margin-left: 85%;
+    /* top: 10%; */
+    left: 2%;
+
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.banner-text h1{
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    color: white;
+
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+h2{
+color: #ffb703;
+font-size: 36px;
+}
+
+h3{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+
+
+
+.button {
+    background-color: white;
+    border: none;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 10px;
+  }
+
+  
+  .button1 {
+    background-color:white;
+    border: none;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 10px;
+  }
+
+  .button2{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 270px;
+  }
+  .button3 {
+    background-color: green;
+    border: none;
+    color: black;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 10px;
+    background-position: center;
+    text-align: center;
+    opacity: 0.85;
+  }
+
+  .button4{
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 10px;
+    background-position: center;
+    text-align: center;
+    opacity: 0.85;
+  }
+
+  .checkbox{
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+.contaner{
+    font-size: 14px;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+
+  }
+
+.text1{
+    font-size: 20px;
+    color: white;
+    margin-left: 270px;
+    margin-top: 30px;
+  }
+
+.button_container{
+    text-align: center;
+  }
+
+/* ........................................................ */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container0{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.meetus{
+    width: 40%;
+    margin-left: 430px;
+    opacity: 0.6;
+}
+
+.about{
+    color: white;
+    text-align: center;
+}
+
+#footer{
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(196, 147, 73);
+}
